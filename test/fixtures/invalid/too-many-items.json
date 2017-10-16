@@ -1,0 +1,38 @@
+[
+  {
+    "uid": "item1",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Too many items 1",
+    "mainText": ""
+  },
+  {
+    "uid": "item2",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Too many items 2",
+    "mainText": ""
+  },
+  {
+    "uid": "item3",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Too many items 3",
+    "mainText": ""
+  },
+  {
+    "uid": "item4",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Too many items 4",
+    "mainText": ""
+  },
+  {
+    "uid": "item5",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Too many items 5",
+    "mainText": ""
+  },
+  {
+    "uid": "item6",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Too many items 6",
+    "mainText": ""
+  }
+]

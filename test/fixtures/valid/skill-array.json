@@ -1,0 +1,21 @@
+[
+  {
+    "uid": "EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_1",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Multi Item JSON (TTS)",
+    "mainText": "",
+    "redirectionUrl": "https://www.amazon.com"
+  },
+  {
+    "uid": "EXAMPLE_CHANNEL_MULTI_ITEM_JSON_TTS_2",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Multi Item JSON (TTS)",
+    "mainText": ""
+  },
+  {
+    "uid": "example3",
+    "updateDate": "2017-10-15T19:04:01.0Z",
+    "titleText": "Multi Item JSON (TTS)",
+    "mainText": ""
+  }
+]

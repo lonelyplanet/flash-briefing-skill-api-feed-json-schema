@@ -1,0 +1,45 @@
+{
+  "name": "@lonelyplanet/flash-briefing-skill-api-feed-json-schema",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "JSON schema for Amazon's Alexa Flash Briefing Skill API Feed",
+  "main": "docs/schema.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonelyplanet/flash-briefing-skill-api-feed-json-schema.git"
+  },
+  "keywords": [
+    "Amazon",
+    "Alexa",
+    "Flash",
+    "Briefing",
+    "Skill",
+    "API",
+    "Feed",
+    "JSON",
+    "schema"
+  ],
+  "author": {
+    "email": "eric.king@lonelyplanet.com",
+    "name": "Eric King",
+    "url": "http://webdeveric.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/lonelyplanet/flash-briefing-skill-api-feed-json-schema/issues"
+  },
+  "homepage": "https://github.com/lonelyplanet/flash-briefing-skill-api-feed-json-schema#readme",
+  "scripts": {
+    "lint": "eslint --fix test",
+    "test": "mocha --colors"
+  },
+  "devDependencies": {
+    "ajv": "^5.2.2",
+    "chai": "^4.1.2",
+    "eslint": "^4.6.1",
+    "eslint-config-webdeveric": "^0.2",
+    "fs-extra": "^4.0.1",
+    "glob": "^7.1.1",
+    "mocha": "^4.0.1",
+    "request": "^2.81.0"
+  }
+}

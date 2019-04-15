@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://lonelyplanet.github.io/flash-briefing-skill-api-feed-json-schema/schema.json",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://lonelyplanet.github.io/flash-briefing-skill-api-feed-json-schema/schema.json",
   "title": "Flash Briefing Skill API Feed",
   "description": "Describe Amazon's Alexa Flash Briefing Skill API Feed",
   "oneOf": [

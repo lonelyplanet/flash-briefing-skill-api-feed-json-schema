@@ -18,7 +18,7 @@ describe('Flash Briefing Skill API Feed', () => {
       extendRefs: 'fail',
     });
 
-    ajv.addMetaSchema( require('ajv/lib/refs/json-schema-draft-04.json') );
+    ajv.addMetaSchema( require('ajv/lib/refs/json-schema-draft-06.json') );
 
     ajv.compileAsync(schema).then( func => {
       validate = func;
@@ -32,6 +32,7 @@ describe('Flash Briefing Skill API Feed', () => {
     glob.sync(validJson).forEach( json => {
       it( path.basename(json), () => {
         const valid = validate( require(json) );
+
         assert.isTrue( valid, util.inspect( validate.errors, inspectOptions ) );
       });
     });
@@ -41,6 +42,7 @@ describe('Flash Briefing Skill API Feed', () => {
     glob.sync(invalidJson).forEach( json => {
       it( path.basename(json), () => {
         const valid = validate( require(json) );
+
         assert.isFalse( valid, `${path.basename(json)} is valid, but shouldn't be` );
         assert.isAtLeast( validate.errors.length, 1 );
       });

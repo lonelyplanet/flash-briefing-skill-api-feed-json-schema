@@ -1,7 +1,7 @@
 version: '3'
 services:
   node:
-    image: node:8
+    image: node:dubnium-alpine
     volumes:
       - ./:/app
     working_dir: '/app'
